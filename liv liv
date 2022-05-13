@@ -1,30 +1,30 @@
 function cmds()
     print([[
     
-    ;prefix - Changes prefix
-    ;s, ;silent, ;silentaim - silentaim
-    ;c, ;cam, ;camlock - camlock Uses cam.CFrame
-    ;av, ;aimvelocity - AimVelocity depends on your ping 
+    >prefix - Changes prefix
+    >s, >silent, >silentaim - silentaim
+    >c, >cam, >camlock - camlock Uses cam.CFrame
+    >av, >aimvelocity - AimVelocity depends on your ping 
     (The higher your ping is the lower this should be)
     (The lower your ping is the higher this should be)
     
-    ;l, ;lock - Locks Player Instead Of Using GetClosestToMouse()
-    ;ul, ;unlock - Unlocks Player
+    >l, >lock - Locks Player Instead Of Using GetClosestToMouse()
+    >ul, >unlock - Unlocks Player
     
-    ;as, ;astomp - auto stomp people
-    ;ar, ;areset - auto reset when knocked
+    >as, >astomp - auto stomp people
+    >ar, >areset - auto reset when knocked
     
-    ;fov - changes Field Of View
-    ;esp, ;unesp
-    ;day, ;night
+    >fov - changes Field Of View
+    >esp, >unesp
+    >day, >night
     
-    ;goto - Goes to a player
+    >goto - Goes to a player
     {
         display then player name(ex. goto display 1234)
         -- searches for display name instead of UserName
     }
     
-    ;to, ;tp - Tp's to a certain location
+    >to, >tp - Tp's to a certain location
     {
         1, f, food
         2, gs, gunstore
