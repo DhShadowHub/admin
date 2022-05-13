@@ -130,7 +130,7 @@ function findplayer(args, tf)
     return Targoot
 end
 
-local Prefix = ";"
+local Prefix = ">"
 
 local screengui = Instance.new("ScreenGui",game.CoreGui)
 local frame = Instance.new("Frame",screengui)
